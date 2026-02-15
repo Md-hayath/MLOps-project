@@ -14,8 +14,8 @@ from src.logger import logging
 
 # Below code block is for local use
 # -------------------------------------------------------------------------------------
-mlflow.set_tracking_uri('https://dagshub.com/hayath4863/MLOps-project.mlflow')
-dagshub.init(repo_owner='hayath4863', repo_name='MLOps-project', mlflow=True)
+# mlflow.set_tracking_uri('https://dagshub.com/hayath4863/MLOps-project.mlflow')
+# dagshub.init(repo_owner='hayath4863', repo_name='MLOps-project', mlflow=True)
 # -------------------------------------------------------------------------------------
 
 # Below code block is for production use
